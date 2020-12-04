@@ -1,0 +1,351 @@
+2020-12-04 17:14:43,994 WARN  [SoapUI] Missing folder [C:\Users\MarakathamaniSundara\Desktop\FullStalk_SDET\SOAP\ext] for external libraries
+2020-12-04 17:14:44,796 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\MarakathamaniSundara\soapui-settings.xml]
+2020-12-04 17:14:48,785 INFO  [WsdlProject] Loaded project from [file:/C:/Users/MarakathamaniSundara/Desktop/FullStalk_SDET/SOAP/SOAPTRIALPROJ-soapui-project.xml]
+2020-12-04 17:14:50,462 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SOAPTRIALPROJ]
+2020-12-04 17:14:50,465 INFO  [SoapUITestCaseRunner] Running Project [SOAPTRIALPROJ], runType = SEQUENTIAL
+2020-12-04 17:14:50,583 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-12-04 17:14:50,624 INFO  [SoapUITestCaseRunner] running step [GetProductTypes]
+2020-12-04 17:14:53,558 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:14:53,558 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:14:53,561 INFO  [SoapUITestCaseRunner] Assertion [Bundle Product] has status VALID
+2020-12-04 17:14:53,562 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-12-04 17:14:53,599 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 2918ms, status: FINISHED
+2020-12-04 17:14:53,629 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Prodrepservicesave]
+2020-12-04 17:14:53,648 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+2020-12-04 17:14:56,725 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:14:56,730 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2020-12-04 17:14:56,745 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:14:56,759 INFO  [SoapUITestCaseRunner] Assertion [simple] has status VALID
+2020-12-04 17:14:56,851 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 17:14:56,867 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Prodrepservicesave], time taken: 3074ms, status: FINISHED
+2020-12-04 17:14:56,888 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GetList]
+2020-12-04 17:14:56,890 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+2020-12-04 17:14:57,886 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:14:57,888 INFO  [SoapUITestCaseRunner] Assertion [Response SLA] has status VALID
+2020-12-04 17:14:57,890 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:14:57,898 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GetList], time taken: 995ms, status: FINISHED
+2020-12-04 17:14:57,910 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GETPRODFROMSKU]
+2020-12-04 17:14:57,910 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+2020-12-04 17:14:58,939 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:14:58,939 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:14:58,942 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-12-04 17:14:58,951 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GETPRODFROMSKU], time taken: 1028ms, status: FINISHED
+2020-12-04 17:14:58,969 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property and property transfer]
+2020-12-04 17:14:59,003 INFO  [SoapUITestCaseRunner] running step [Getlist]
+2020-12-04 17:14:59,743 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:14:59,743 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 17:14:59,761 INFO  [SoapUITestCaseRunner] running step [CreateProduct]
+2020-12-04 17:15:01,229 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:01,229 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:15:01,234 INFO  [SoapUITestCaseRunner] running step [Getlistofprod]
+2020-12-04 17:15:02,504 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:02,541 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:15:02,542 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-12-04 17:15:02,726 INFO  [SoapUITestCaseRunner] running step [getprodbysku]
+2020-12-04 17:15:06,075 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:06,090 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:15:06,090 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status UNKNOWN
+2020-12-04 17:15:06,099 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property and property transfer], time taken: 6955ms, status: FINISHED
+2020-12-04 17:15:06,110 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property and Property Expansion]
+2020-12-04 17:15:06,113 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 17:15:06,121 INFO  [SoapUITestCaseRunner] running step [CreateNewProd]
+2020-12-04 17:15:07,446 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:07,460 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 17:15:07,482 INFO  [SoapUITestCaseRunner] Assertion [name] has status VALID
+2020-12-04 17:15:07,490 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-12-04 17:15:07,498 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property and Property Expansion], time taken: 1325ms, status: FINISHED
+2020-12-04 17:15:07,510 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GroovyScript]
+2020-12-04 17:15:07,512 INFO  [SoapUITestCaseRunner] running step [Save]
+2020-12-04 17:15:08,804 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:08,806 INFO  [SoapUITestCaseRunner] running step [GetList]
+2020-12-04 17:15:11,229 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:11,268 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-04 17:15:11,671 INFO  [log] Testcase name is GroovyScript
+2020-12-04 17:15:11,701 INFO  [log] TestSuite name is Automation
+2020-12-04 17:15:11,742 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetListResponse>
+         <result>
+            <items>
+               <item>
+                  <id>12342003</id>
+                  <sku>SKU00006</sku>
+                  <name>MacBook M32</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>600</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:12</createdAt>
+                  <updatedAt>2020-12-04 11:42:42</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-m32</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342039</id>
+                  <sku>SKU00001</sku>
+                  <name>MacBook Air</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>100</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:27</createdAt>
+                  <updatedAt>2020-12-04 11:45:08</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-air</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342040</id>
+                  <sku>SKU00005</sku>
+                  <name>M31</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>300</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:35</createdAt>
+                  <updatedAt>2020-12-04 11:45:07</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>m31</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+            </items>
+            <searchCriteria>
+               <filterGroups/>
+            </searchCriteria>
+            <totalCount>3</totalCount>
+         </result>
+      </ns1:catalogProductRepositoryV1GetListResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:15:12,840 INFO  [log] DelRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:12,912 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:13,160 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 17:15:13,162 INFO  [SoapUITestCaseRunner] running step [deletebysku]
+2020-12-04 17:15:14,057 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:15:14,136 INFO  [log] deletion Result is null
+2020-12-04 17:15:14,142 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:14,150 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 17:15:14,153 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GroovyScript], time taken: 6545ms, status: FINISHED
+2020-12-04 17:15:14,160 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property and Groovy Script]
+2020-12-04 17:15:14,161 INFO  [SoapUITestCaseRunner] running step [saveprod]
+2020-12-04 17:15:15,583 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:15,632 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-04 17:15:15,875 INFO  [log] Testcase name is Property and Groovy Script
+2020-12-04 17:15:15,876 INFO  [log] TestSuite name is Automation
+2020-12-04 17:15:15,880 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12342003</id>
+            <sku>SKU00006</sku>
+            <name>MacBook M32</name>
+            <attributeSetId>4</attributeSetId>
+            <price>600</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 07:11:12</createdAt>
+            <updatedAt>2020-12-04 11:45:15</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-m32</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:15:16,236 INFO  [log] GetRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:16,262 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:16,330 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 17:15:16,353 INFO  [SoapUITestCaseRunner] running step [Getbysku]
+2020-12-04 17:15:19,382 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 17:15:19,394 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-12-04 17:15:19,402 INFO  [SoapUITestCaseRunner] Assertion [XPath Match 1] has status VALID
+2020-12-04 17:15:19,434 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property and Groovy Script], time taken: 5085ms, status: FINISHED
+2020-12-04 17:15:19,443 INFO  [SoapUITestCaseRunner] Project [SOAPTRIALPROJ] finished with status [FINISHED] in 28918ms

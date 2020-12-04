@@ -1,0 +1,1365 @@
+2020-12-04 13:11:07,488 INFO  [log] Testcase name is GroovyScript
+2020-12-04 13:11:07,502 INFO  [log] TestSuite name is Automation
+2020-12-04 13:11:07,509 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetListResponse>
+         <result>
+            <items>
+               <item>
+                  <id>12342002</id>
+                  <sku>SKU00005</sku>
+                  <name>M31</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>300</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:07</createdAt>
+                  <updatedAt>2020-12-04 07:41:04</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>m31</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342003</id>
+                  <sku>SKU00006</sku>
+                  <name>MacBook M32</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>600</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:12</createdAt>
+                  <updatedAt>2020-12-04 07:12:41</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-m32</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342005</id>
+                  <sku>SKU00001</sku>
+                  <name>MacBook Air</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>100</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:40:54</createdAt>
+                  <updatedAt>2020-12-04 07:41:05</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-air</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+            </items>
+            <searchCriteria>
+               <filterGroups/>
+            </searchCriteria>
+            <totalCount>3</totalCount>
+         </result>
+      </ns1:catalogProductRepositoryV1GetListResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 13:11:07,759 INFO  [log] DelRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 13:11:07,779 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 13:11:09,624 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 13:11:09,651 INFO  [log] deletion Result is null
+2020-12-04 13:11:10,928 INFO  [log] Testcase name is Property and Groovy Script
+2020-12-04 13:11:10,936 INFO  [log] TestSuite name is Automation
+2020-12-04 13:11:10,937 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12342003</id>
+            <sku>SKU00006</sku>
+            <name>MacBook M32</name>
+            <attributeSetId>4</attributeSetId>
+            <price>600</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 07:11:12</createdAt>
+            <updatedAt>2020-12-04 07:41:10</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-m32</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 13:11:11,029 INFO  [log] GetRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 13:11:11,040 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:03:38,603 INFO  [log] Testcase name is GroovyScript
+2020-12-04 17:03:38,612 INFO  [log] TestSuite name is Automation
+2020-12-04 17:03:38,614 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetListResponse>
+         <result>
+            <items>
+               <item>
+                  <id>12342003</id>
+                  <sku>SKU00006</sku>
+                  <name>MacBook M32</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>600</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:12</createdAt>
+                  <updatedAt>2020-12-04 07:49:54</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-m32</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342039</id>
+                  <sku>SKU00001</sku>
+                  <name>MacBook Air</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>100</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:27</createdAt>
+                  <updatedAt>2020-12-04 11:33:37</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-air</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342040</id>
+                  <sku>SKU00005</sku>
+                  <name>M31</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>300</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:35</createdAt>
+                  <updatedAt>2020-12-04 11:33:35</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>m31</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+            </items>
+            <searchCriteria>
+               <filterGroups/>
+            </searchCriteria>
+            <totalCount>3</totalCount>
+         </result>
+      </ns1:catalogProductRepositoryV1GetListResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:03:38,810 INFO  [log] DelRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:03:38,818 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:03:39,670 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:03:39,683 INFO  [log] deletion Result is null
+2020-12-04 17:03:42,341 INFO  [log] Testcase name is Property and Groovy Script
+2020-12-04 17:03:42,342 INFO  [log] TestSuite name is Automation
+2020-12-04 17:03:42,344 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12342003</id>
+            <sku>SKU00006</sku>
+            <name>MacBook M32</name>
+            <attributeSetId>4</attributeSetId>
+            <price>600</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 07:11:12</createdAt>
+            <updatedAt>2020-12-04 11:33:41</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-m32</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:03:42,410 INFO  [log] GetRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:03:42,429 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:05:30,746 INFO  [log] Testcase name is GroovyScript
+2020-12-04 17:05:30,777 INFO  [log] TestSuite name is Automation
+2020-12-04 17:05:30,781 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetListResponse>
+         <result>
+            <items>
+               <item>
+                  <id>12342003</id>
+                  <sku>SKU00006</sku>
+                  <name>MacBook M32</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>600</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:12</createdAt>
+                  <updatedAt>2020-12-04 11:33:41</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-m32</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342039</id>
+                  <sku>SKU00001</sku>
+                  <name>MacBook Air</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>100</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:27</createdAt>
+                  <updatedAt>2020-12-04 11:35:29</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-air</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342040</id>
+                  <sku>SKU00005</sku>
+                  <name>M31</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>300</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:35</createdAt>
+                  <updatedAt>2020-12-04 11:35:27</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>m31</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+            </items>
+            <searchCriteria>
+               <filterGroups/>
+            </searchCriteria>
+            <totalCount>3</totalCount>
+         </result>
+      </ns1:catalogProductRepositoryV1GetListResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:05:31,064 INFO  [log] DelRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:05:31,084 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:05:32,935 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:05:32,965 INFO  [log] deletion Result is null
+2020-12-04 17:05:36,462 INFO  [log] Testcase name is Property and Groovy Script
+2020-12-04 17:05:36,463 INFO  [log] TestSuite name is Automation
+2020-12-04 17:05:36,465 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12342003</id>
+            <sku>SKU00006</sku>
+            <name>MacBook M32</name>
+            <attributeSetId>4</attributeSetId>
+            <price>600</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 07:11:12</createdAt>
+            <updatedAt>2020-12-04 11:35:36</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-m32</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:05:36,552 INFO  [log] GetRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:05:36,576 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:12:39,090 INFO  [log] Testcase name is GroovyScript
+2020-12-04 17:12:39,136 INFO  [log] TestSuite name is Automation
+2020-12-04 17:12:39,216 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetListResponse>
+         <result>
+            <items>
+               <item>
+                  <id>12342003</id>
+                  <sku>SKU00006</sku>
+                  <name>MacBook M32</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>600</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:12</createdAt>
+                  <updatedAt>2020-12-04 11:40:55</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-m32</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342039</id>
+                  <sku>SKU00001</sku>
+                  <name>MacBook Air</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>100</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:27</createdAt>
+                  <updatedAt>2020-12-04 11:42:37</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-air</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342040</id>
+                  <sku>SKU00005</sku>
+                  <name>M31</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>300</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:35</createdAt>
+                  <updatedAt>2020-12-04 11:42:31</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>m31</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+            </items>
+            <searchCriteria>
+               <filterGroups/>
+            </searchCriteria>
+            <totalCount>3</totalCount>
+         </result>
+      </ns1:catalogProductRepositoryV1GetListResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:12:40,181 INFO  [log] DelRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:12:40,199 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:12:41,246 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:12:41,365 INFO  [log] deletion Result is null
+2020-12-04 17:12:42,817 INFO  [log] Testcase name is Property and Groovy Script
+2020-12-04 17:12:42,824 INFO  [log] TestSuite name is Automation
+2020-12-04 17:12:42,833 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12342003</id>
+            <sku>SKU00006</sku>
+            <name>MacBook M32</name>
+            <attributeSetId>4</attributeSetId>
+            <price>600</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 07:11:12</createdAt>
+            <updatedAt>2020-12-04 11:42:42</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-m32</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:12:43,273 INFO  [log] GetRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:12:43,349 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:11,671 INFO  [log] Testcase name is GroovyScript
+2020-12-04 17:15:11,701 INFO  [log] TestSuite name is Automation
+2020-12-04 17:15:11,742 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetListResponse>
+         <result>
+            <items>
+               <item>
+                  <id>12342003</id>
+                  <sku>SKU00006</sku>
+                  <name>MacBook M32</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>600</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 07:11:12</createdAt>
+                  <updatedAt>2020-12-04 11:42:42</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-m32</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342039</id>
+                  <sku>SKU00001</sku>
+                  <name>MacBook Air</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>100</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:27</createdAt>
+                  <updatedAt>2020-12-04 11:45:08</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>macbook-air</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+               <item>
+                  <id>12342040</id>
+                  <sku>SKU00005</sku>
+                  <name>M31</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>300</price>
+                  <status>1</status>
+                  <visibility>4</visibility>
+                  <typeId>simple</typeId>
+                  <createdAt>2020-12-04 11:33:35</createdAt>
+                  <updatedAt>2020-12-04 11:45:07</updatedAt>
+                  <extensionAttributes>
+                     <websiteIds>
+                        <item>1</item>
+                     </websiteIds>
+                  </extensionAttributes>
+                  <productLinks/>
+                  <options/>
+                  <mediaGalleryEntries/>
+                  <tierPrices/>
+                  <customAttributes>
+                     <item>
+                        <attributeCode>options_container</attributeCode>
+                        <value>container2</value>
+                     </item>
+                     <item>
+                        <attributeCode>msrp_display_actual_price_type</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>url_key</attributeCode>
+                        <value>m31</value>
+                     </item>
+                     <item>
+                        <attributeCode>required_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>has_options</attributeCode>
+                        <value>0</value>
+                     </item>
+                     <item>
+                        <attributeCode>tax_class_id</attributeCode>
+                        <value>2</value>
+                     </item>
+                     <item>
+                        <attributeCode>category_ids</attributeCode>
+                        <value/>
+                     </item>
+                  </customAttributes>
+               </item>
+            </items>
+            <searchCriteria>
+               <filterGroups/>
+            </searchCriteria>
+            <totalCount>3</totalCount>
+         </result>
+      </ns1:catalogProductRepositoryV1GetListResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:15:12,840 INFO  [log] DelRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:12,912 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1DeleteByIdRequest>
+         <sku/>
+      </def:catalogProductRepositoryV1DeleteByIdRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:14,057 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:15:14,136 INFO  [log] deletion Result is null
+2020-12-04 17:15:15,875 INFO  [log] Testcase name is Property and Groovy Script
+2020-12-04 17:15:15,876 INFO  [log] TestSuite name is Automation
+2020-12-04 17:15:15,880 INFO  [log] Response is <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12342003</id>
+            <sku>SKU00006</sku>
+            <name>MacBook M32</name>
+            <attributeSetId>4</attributeSetId>
+            <price>600</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 07:11:12</createdAt>
+            <updatedAt>2020-12-04 11:45:15</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-m32</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 17:15:16,236 INFO  [log] GetRequest is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 17:15:16,262 INFO  [log] Updated Xml is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00006</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
